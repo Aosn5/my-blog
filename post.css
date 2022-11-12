@@ -1,3 +1,5 @@
+@import "/style.css/button.css";
+
 .art{
     overflow-y:auto;
     overflow-x: hidden;
@@ -42,9 +44,11 @@
     font: bold italic sans-serif verdana monospace;
 }
 #contact{
-   
+   display: flex;
+   flex-flow:column;
     padding: 5px;
     margin: 25px 5px;
     background-color: #f0f8ff;
-    text-align: center;
+    text-align: left;
+    
 }
