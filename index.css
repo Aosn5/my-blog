@@ -1,0 +1,91 @@
+@import "post.css";
+.nav{
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    padding: 10px;
+    width: 1fr;
+    border-bottom: 1px solid black;
+}
+.nav li{
+    background-color: #aaf;
+    list-style: none;
+    margin: 0 15px;
+    line-height: 0.3em;
+    border-radius: 7px;
+    width: 7em;
+    text-align: center;
+    color: #000;
+}
+.nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+.container{
+    
+    display: grid;
+    grid-template-rows: auto 25%;
+    grid-template-areas: "hd hd main main"
+             "footer footer footer footer";
+   grid-gap: 35px 15px;
+   grid-template-columns: repeat(3, 32%);
+   grid-template-rows: repeat(2, auto);
+   padding: 25px 25px;
+   width: 100vw;
+   height: 100vh;
+   justify-content: space-around;
+}
+.blog{grid-area: hd;}
+.box-two{grid-area: main;}
+.review{
+     grid-area: footer;
+     width:100vw;
+     height: 1fr;
+    }
+
+.container div {
+    text-align: left;
+    border-radius: 7px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 2px;
+}
+ #contact{
+     background-color: #ccc;
+     color: #000;
+     border-radius: 7px;
+     padding: 10px;
+     width: 100vw;
+     text-align: left;
+ }
+.links a{
+    text-decoration: none;
+    color: #000;
+}
+
+.note{ float: left; margin-top: 200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
